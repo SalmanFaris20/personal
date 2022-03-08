@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.b6eed7f1.css",
+    "main.js": "/personal/static/js/main.2c4c7772.js",
+    "static/js/787.88012170.chunk.js": "/personal/static/js/787.88012170.chunk.js",
+    "static/media/cuapria.jpg": "/personal/static/media/cuapria.c5f9e74df270322596aa.jpg",
+    "static/media/rb.jpg": "/personal/static/media/rb.bcfedb3e12835f3a4ff9.jpg",
+    "static/media/guru.jpg": "/personal/static/media/guru.01a2ed7a30f12f5c0832.jpg",
+    "static/media/kopiku.png": "/personal/static/media/kopiku.11a24c2f8a12b6e036f4.png",
+    "static/media/swi.jpeg": "/personal/static/media/swi.8e65a741b27aaca87809.jpeg",
+    "static/media/homeapp.jpg": "/personal/static/media/homeapp.ae7db6be1b4095afe839.jpg",
+    "static/media/tailwind.svg": "/personal/static/media/tailwind.5536c846b82c7b8900fbc79ee8123686.svg",
+    "static/media/node.svg": "/personal/static/media/node.12a32f7b7c4e4bca0411af448ef005c0.svg",
+    "static/media/firebase.svg": "/personal/static/media/firebase.5edbc079bc71d75e660e1a17552bbfe9.svg",
+    "static/media/figma.svg": "/personal/static/media/figma.760c3bae60724738f99bd96725c805b5.svg",
+    "static/media/react.svg": "/personal/static/media/react.7469f19f9cd1ff04fcc9bdcc7c1dd053.svg",
+    "static/media/bootstrap.svg": "/personal/static/media/bootstrap.7bca0bbccf5eedf633e4851ecc0449a6.svg",
+    "static/media/gitlab.svg": "/personal/static/media/gitlab.742cb24a6f6fb36da45c35d6c3b54e0d.svg",
+    "static/media/mongo.svg": "/personal/static/media/mongo.adfdbaf34c7d415399f8f06328413ce9.svg",
+    "static/media/css.svg": "/personal/static/media/css.d94b9bce21e3c36e02eb25924d12a6d8.svg",
+    "static/media/html.svg": "/personal/static/media/html.7179a20b0ced38151512137544ac3163.svg",
+    "static/media/mysql.svg": "/personal/static/media/mysql.0731a98f74dc02ae05a5ff215f25127f.svg",
+    "static/media/js.svg": "/personal/static/media/js.d98675bda8e7c053fd44fb0aea22ad71.svg",
+    "static/media/postgree.svg": "/personal/static/media/postgree.5259b6a571a023ea91f0aad98030ec14.svg",
+    "static/media/git.svg": "/personal/static/media/git.04d8ae623f935d678c517220388dfef3.svg",
+    "index.html": "/personal/index.html",
+    "main.b6eed7f1.css.map": "/personal/static/css/main.b6eed7f1.css.map",
+    "main.2c4c7772.js.map": "/personal/static/js/main.2c4c7772.js.map",
+    "787.88012170.chunk.js.map": "/personal/static/js/787.88012170.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6eed7f1.css",
+    "static/js/main.2c4c7772.js"
+  ]
+}
