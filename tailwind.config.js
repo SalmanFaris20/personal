@@ -18,6 +18,7 @@ module.exports = {
         cuapria: "url('img/cuapria.jpg')",
         swi: "url('img/swi.jpeg')",
         kopiku: "url(img/kopiku.png)",
+        games: "url(img/games.jpg)",
       },
       screens: {
         laptop: "1320px",

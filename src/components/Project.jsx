@@ -78,7 +78,7 @@ const Project = () => {
               Aplikasi yang digunakan untuk menghubungkan user dengan pelaku
               usaha melalui link whatsapp.
             </p>
-            <a href="">
+            <a href="https://play.google.com/store/apps/details?id=com.rancahbetah">
               <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
                 Detail Project
               </button>
@@ -87,18 +87,33 @@ const Project = () => {
           </div>
         )}
         {isWeb && (
-          <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-            <h4 className="text-orange font-bold">Website Hari Guru</h4>
-            <p className="text-abu">
-              Website Undangan hari guru dalam bentuk website kepada guru-guru
-              yang akan di undang.
-            </p>
-            <a href="">
-              <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                Detail Project
-              </button>
-            </a>
-            <div className="bg-guru h-80 w-60 bg-cover rounded-xl"></div>
+          <div className="grid md:grid-cols-2 laptop:grid-cols-3 gap-10 w-full">
+            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
+              <h4 className="text-orange font-bold">Website Hari Guru</h4>
+              <p className="text-abu">
+                Website Undangan hari guru dalam bentuk website kepada guru-guru
+                yang akan di undang.
+              </p>
+              <a href="https://harigurunasional.netlify.app/">
+                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
+                  Detail Project
+                </button>
+              </a>
+              <div className="bg-guru h-80 w-60 bg-cover rounded-xl"></div>
+            </div>
+            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
+              <h4 className="text-orange font-bold">Website Games</h4>
+              <p className="text-abu">
+                Website Games Gunting Batu Kertas yang bisa dimainkan oleh satu
+                player versus computer.
+              </p>
+              <a href="https://games-gunting.herokuapp.com/">
+                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
+                  Detail Project
+                </button>
+              </a>
+              <div className="bg-games bg-center h-80 w-60 bg-cover rounded-xl"></div>
+            </div>
           </div>
         )}
 
