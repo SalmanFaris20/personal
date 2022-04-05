@@ -109,7 +109,7 @@ const Project = () => {
               </p>
               <a href="https://games-gunting.herokuapp.com/">
                 <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
+                  Detail Projec
                 </button>
               </a>
               <div className="bg-games bg-center h-80 w-60 bg-cover rounded-xl"></div>
