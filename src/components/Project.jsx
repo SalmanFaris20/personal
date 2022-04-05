@@ -21,6 +21,7 @@ const Project = () => {
     setIsWeb(false);
   };
 
+
   return (
     <div className="font-utama mt-14 flex flex-col justify-center items-center md:items-start md:px-20 lg:px-32 xl:px-44">
       <div className="md:flex md:justify-between md:w-full md:items-end">
