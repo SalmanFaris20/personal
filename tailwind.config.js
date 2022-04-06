@@ -19,6 +19,7 @@ module.exports = {
         swi: "url('img/swi.jpeg')",
         kopiku: "url(img/kopiku.png)",
         games: "url(img/games.jpg)",
+        gamesjadi: "url(img/gamesjadi.jpg)",
       },
       screens: {
         laptop: "1320px",

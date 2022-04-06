@@ -104,16 +104,25 @@ const Project = () => {
             </div>
             <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
               <h4 className="text-orange font-bold">Website Games</h4>
-              <p className="text-abu">
-                Website Games Gunting Batu Kertas yang bisa dimainkan oleh satu
-                player versus computer.
-              </p>
+              <p className="text-abu">Landing Page Website Games</p>
               <a href="https://games-gunting.herokuapp.com/">
                 <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
                   Detail Project
                 </button>
               </a>
               <div className="bg-games bg-center h-80 w-60 bg-cover rounded-xl"></div>
+            </div>
+            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
+              <h4 className="text-orange font-bold">Website Games</h4>
+              <p className="text-abu">
+                Website Games dengan akses authentication dan leaderboard
+              </p>
+              <a href="https://games-gunting.herokuapp.com/">
+                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
+                  Detail Project
+                </button>
+              </a>
+              <div className="bg-gamesjadi bg-center h-80 w-60 bg-cover rounded-xl"></div>
             </div>
           </div>
         )}
