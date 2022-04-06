@@ -117,7 +117,7 @@ const Project = () => {
               <p className="text-abu">
                 Website Games dengan akses authentication dan leaderboard
               </p>
-              <a href="https://games-gunting.herokuapp.com/">
+              <a href="https://binar-challenge9.herokuapp.com/">
                 <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
                   Detail Project
                 </button>
