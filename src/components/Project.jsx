@@ -1,4 +1,37 @@
 import { useState } from "react";
+
+
+const Webproject = [
+  {
+    title: "Landing Page Website",
+    description: "Landing Page Website Games",
+    image: "bg-games",
+  },
+  {
+    title: "Rock Scissor Paper Games Complete",
+    description: "Authentication, Play Games, Leaderboard",
+    image: "bg-gamesjadi",
+  },
+];
+
+const Speakerproject = [
+  {
+    title: "Pembicara di Komunitas Cuapria, Ciamis",
+    description: "Menjadi bintang tamu sebagai founder Rancah Betah",
+    image: "bg-cuapria",
+  },
+  {
+    title: "Pembicara di Komunitas Smart With Islam",
+    description: "Menjadi bintang tamu sebagai founder Rancah Betah",
+    image: "bg-swi",
+  },
+  {
+    title: "Pembicara di Komunitas Kopiku Literasi",
+    description: "Menjadi bintang tamu sebagai founder Rancah Betah",
+    image: "bg-kopiku",
+  },
+];
+
 const Project = () => {
   const [isWeb, setIsWeb] = useState(false);
   const [isApp, setIsApp] = useState(true);
@@ -20,7 +53,6 @@ const Project = () => {
     setIsApp(false);
     setIsWeb(false);
   };
-
 
   return (
     <div className="font-utama mt-14 flex flex-col justify-center items-center md:items-start md:px-20 lg:px-32 xl:px-44">
@@ -89,88 +121,43 @@ const Project = () => {
         )}
         {isWeb && (
           <div className="grid md:grid-cols-2 laptop:grid-cols-3 gap-10 w-full">
-            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-              <h4 className="text-orange font-bold">Website Hari Guru</h4>
-              <p className="text-abu">
-                Website Undangan hari guru dalam bentuk website kepada guru-guru
-                yang akan di undang.
-              </p>
-              <a href="https://harigurunasional.netlify.app/">
-                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
-                </button>
-              </a>
-              <div className="bg-guru h-80 w-60 bg-cover rounded-xl"></div>
-            </div>
-            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-              <h4 className="text-orange font-bold">Website Games</h4>
-              <p className="text-abu">Landing Page Website Games</p>
-              <a href="https://games-gunting.herokuapp.com/">
-                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
-                </button>
-              </a>
-              <div className="bg-games bg-center h-80 w-60 bg-cover rounded-xl"></div>
-            </div>
-            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-              <h4 className="text-orange font-bold">Website Games</h4>
-              <p className="text-abu">
-                Website Games dengan akses authentication dan leaderboard
-              </p>
-              <a href="https://binar-challenge9.herokuapp.com/">
-                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
-                </button>
-              </a>
-              <div className="bg-gamesjadi bg-center h-80 w-60 bg-cover rounded-xl"></div>
-            </div>
+            {Webproject.map((item) => {
+              return (
+                <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
+                  <h4 className="text-orange font-bold">{item.title}</h4>
+                  <p className="text-abu">{item.description}</p>
+                  <a href="https://games-gunting.herokuapp.com/">
+                    <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
+                      Detail Project
+                    </button>
+                  </a>
+                  <div
+                    className={`${item.image} bg-center h-80 w-60 bg-cover rounded-xl`}
+                  ></div>
+                </div>
+              );
+            })}
           </div>
         )}
 
         {isSpeaker && (
           <div className="grid md:grid-cols-2 laptop:grid-cols-3 gap-10 w-full">
-            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-              <h4 className="text-orange font-bold">
-                Pembicara di Komunitas Cuap Ria, Ciamis
-              </h4>
-              <p className="text-abu">
-                Menjadi bintang tamu sebagai founder komunitas Rancah Betah.
-              </p>
-              <a href="">
-                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
-                </button>
-              </a>
-              <div className="bg-cuapria h-80 w-60 bg-cover rounded-xl"></div>
-            </div>
-            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-              <h4 className="text-orange font-bold">
-                Pembicara di Komunitas Smart With Islam
-              </h4>
-              <p className="text-abu">
-                Menjadi bintang tamu sebagai founder komunitas Rancah Betah.
-              </p>
-              <a href="">
-                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
-                </button>
-              </a>
-              <div className="bg-swi bg-center h-80 w-60 bg-cover rounded-xl"></div>
-            </div>
-            <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
-              <h4 className="text-orange font-bold">
-                Pembicara di Komunitas Kopiku Literasi
-              </h4>
-              <p className="text-abu">
-                Menjadi bintang tamu sebagai founder komunitas Rancah Betah.
-              </p>
-              <a href="">
-                <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                  Detail Project
-                </button>
-              </a>
-              <div className="bg-kopiku bg-center h-80 w-60 bg-cover rounded-xl"></div>
-            </div>
+            {Speakerproject.map((item) => {
+              return (
+                <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
+                  <h4 className="text-orange font-bold">{item.title}</h4>
+                  <p className="text-abu">{item.description}</p>
+                  <a href="">
+                    <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
+                      Detail Project
+                    </button>
+                  </a>
+                  <div
+                    className={`${item.image} h-80 w-60 bg-cover rounded-xl`}
+                  ></div>
+                </div>
+              );
+            })}
           </div>
         )}
       </div>

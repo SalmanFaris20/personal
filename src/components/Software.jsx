@@ -1,17 +1,17 @@
-import bootstrap from "./../img/bootstrap.svg";
-import css from "./../img/css.svg";
-import figma from "./../img/figma.svg";
-import firebase from "./../img/firebase.svg";
-import git from "./../img/git.svg";
-import gitlab from "./../img/gitlab.svg";
-import html from "./../img/html.svg";
-import js from "./../img/js.svg";
-import mongo from "./../img/mongo.svg";
-import mysql from "./../img/mysql.svg";
-import node from "./../img/node.svg";
-import postgree from "./../img/postgree.svg";
-import react from "./../img/react.svg";
-import tailwind from "./../img/tailwind.svg";
+import bootstrap from "./../img/svg/bootstrap.svg";
+import css from "./../img/svg/css.svg";
+import figma from "./../img/svg/figma.svg";
+import firebase from "./../img/svg/firebase.svg";
+import git from "./../img/svg/git.svg";
+import gitlab from "./../img/svg/gitlab.svg";
+import html from "./../img/svg/html.svg";
+import js from "./../img/svg/js.svg";
+import mongo from "./../img/svg/mongo.svg";
+import mysql from "./../img/svg/mysql.svg";
+import node from "./../img/svg/node.svg";
+import postgree from "./../img/svg/postgree.svg";
+import react from "./../img/svg/react.svg";
+import tailwind from "./../img/svg/tailwind.svg";
 
 const Software = () => {
   return (
