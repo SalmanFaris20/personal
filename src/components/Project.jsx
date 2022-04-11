@@ -61,7 +61,7 @@ const Project = ({ Webproject, Appproject }) => {
               return (
                 <>
                   <h4 className="text-orange font-bold">{item.title}</h4>
-                  <p className="text-abu">{item.description}</p>
+
                   <Link to={`/detail/${item.title}`}>
                     <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
                       Detail Project
@@ -82,7 +82,7 @@ const Project = ({ Webproject, Appproject }) => {
               return (
                 <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
                   <h4 className="text-orange font-bold">{item.title}</h4>
-                  <p className="text-abu">{item.description}</p>
+
                   <Link to={`/detail/${item.title}`}>
                     <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
                       Detail Project

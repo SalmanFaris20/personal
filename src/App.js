@@ -27,12 +27,18 @@ import porto5 from "./img/porto5.png";
 import tailwind from "./img/svg/tailwind.svg";
 import mui from "./img/svg/mui.svg";
 import bootstrap from "./img/svg/bootstrap.svg";
+import app1 from "./img/app.jpg";
+import app2 from "./img/app2.jpg";
+import app3 from "./img/app3.jpg";
+import app4 from "./img/app4.jpg";
 
 const Webproject = [
   {
     id: 1,
     title: "Landing Page Website",
     description: ["Responsive"],
+    penjelasan:
+      "Landing Page Game Website yang terdapat berbagai pilihan permainan",
     image: "bg-games",
     gambar: [gunting1, gunting2, gunting3, gunting4, gunting5, gunting6],
     tech: [html, css, js, bootstrap],
@@ -40,7 +46,7 @@ const Webproject = [
   },
   {
     id: 2,
-    title: "Rock Scissor Paper Games Complete",
+    title: "Rock Scissor Paper Games",
     description: [
       "Authentication",
       "Authorization",
@@ -48,6 +54,8 @@ const Webproject = [
       "Leaderboard",
       "Edit Profile",
     ],
+    penjelasan:
+      "Website games dengan banyak pilihan permainan. Games utama yaitu rock paper scissor yang bisa dimainkan melawan computer. User yang menang akan mendapatkan poin dan bersaing untuk menjadi top 1 leaderboard.",
     image: "bg-gamesjadi",
     gambar: [games1, games2, games3, games4, games5, games6],
     tech: [react, firebase, node, mui],
@@ -57,6 +65,8 @@ const Webproject = [
     id: 3,
     title: "Portofolio Website",
     description: ["Responsive", "Single Page Application"],
+    penjelasan:
+      "Website portofolio untuk menginformasikan beberapa project yang pernah dikerjakan, ataupun skillset yang sudah dikuasai",
     image: "bg-porto",
     gambar: [porto1, porto2, porto3, porto4, porto5],
     tech: [react, tailwind],
@@ -69,7 +79,9 @@ const Appproject = [
     id: 1,
     title: "Aplikasi Android Rancah Betah",
     description: ["Authorization", "Authentication"],
-    gambar: [porto1, porto2, porto3, porto4, porto5],
+    penjelasan:
+      "aplikasi cloning gojek yang lebih sederhana, user dapat memesan produk yang nantinya terhubung ke whatsapp. Aplikasi sudah dilaunch secara public dan telah digunakan oleh masyarakat",
+    gambar: [app1, app2, app3, app4],
     image: "bg-app",
     tech: [react, firebase],
     launch: "portofoliosalman.herokuapp.com",
