@@ -20,11 +20,12 @@ module.exports = {
         kopiku: "url(img/kopiku.png)",
         games: "url(img/games.jpg)",
         gamesjadi: "url(img/gamesjadi.jpg)",
+        porto: "url(img/porto1.png)",
       },
       screens: {
         laptop: "1320px",
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

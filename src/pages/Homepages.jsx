@@ -7,7 +7,7 @@ import Skill from "../components/Skill";
 import Software from "../components/Software";
 import Toogle from "../components/Toogle";
 
-function Homepages() {
+function Homepages({ Webproject, Appproject }) {
   const [editMenu, setEditMenu] = useState(false);
   const handleClickMenu = () => {
     setEditMenu(true);
@@ -56,7 +56,7 @@ function Homepages() {
         {editMenu ? "" : <Main />}
 
         <Skill />
-        <Project />
+        <Project Webproject={Webproject} Appproject={Appproject} />
         <Software />
         <Contact />
         <Footer />
