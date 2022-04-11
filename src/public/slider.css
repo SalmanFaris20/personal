@@ -1,15 +1,16 @@
-.utama{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
+
 
 
 .swiper {
-  width: 80%;
-  height: 100%;
+  width: 100%;
+  height: 80%;
   border-radius: 10px;
+
+}
+
+.swiper-button-next{
+  background-size: 10%;
+  width: 30%;
 }
 
 .swiper-slide {

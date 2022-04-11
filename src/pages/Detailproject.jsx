@@ -10,19 +10,19 @@ function Detailproject({ Webproject, Appproject }) {
   const { title } = params;
 
   return (
-    <div className="bg-birutua xl:h-screen font-utama flex flex-wrap space-y-2 justify-center text-center xl:text-left xl:justify-start xl:flex-nowrap px-10 py-28 space-x-5 2xl:space-x-10">
+    <div className="bg-birutua xl:h-screen font-utama flex flex-wrap space-y-2 justify-center px-5 text-center xl:text-left xl:justify-start xl:flex-nowrap xl:px-10 py-28 xl:space-x-5 2xl:space-x-10">
       <Slider
         Webproject={Webproject}
         title={title}
         Appproject={Appproject}
-        className="w-1/2"
+        // className="w-1/2"
       />
-      <div className="w-1/2 space-y-9">
+      <div className="space-y-9">
         {Webproject.filter((list) => list.title === title).map((item) => {
           return (
             <>
-              <div className="space-y-3">
-                <h1 className="text-white text-6xl font-bold">{item.title}</h1>
+              <div className="space-y-3 mt-10 w-full">
+                <h1 className="text-white text-6xl font-bold ">{item.title}</h1>
                 <div className="flex gap-2 justify-center xl:justify-start">
                   <div className="h-0.5 w-7 bg-orange mt-3"></div>
                   <p className="text-orange">Portofolio</p>
