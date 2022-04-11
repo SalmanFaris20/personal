@@ -5,7 +5,7 @@ import "../public/slider.css";
 
 import { Navigation } from "swiper";
 
-export default function Slider({ Webproject, title }) {
+export default function Slider({ Webproject, title, Appproject }) {
   return (
     <>
       <Swiper
@@ -15,6 +15,19 @@ export default function Slider({ Webproject, title }) {
         className="MySwipper"
       >
         {Webproject.filter((item) => item.title === title).map((image) => {
+          return (
+            <>
+              {image.gambar.map((item) => {
+                return (
+                  <SwiperSlide>
+                    <img src={item} alt="fixed" />
+                  </SwiperSlide>
+                );
+              })}
+            </>
+          );
+        })}
+        {Appproject.filter((item) => item.title === title).map((image) => {
           return (
             <>
               {image.gambar.map((item) => {

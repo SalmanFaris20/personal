@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Homepages from "./pages/Homepages";
 import Detailproject from "./pages/Detailproject";
-import DetailAppProject from "./pages/DetailAppProject";
 import games1 from "./img/games1.png";
 import games2 from "./img/games2.png";
 import games3 from "./img/games3.png";
@@ -69,9 +68,11 @@ const Appproject = [
   {
     id: 1,
     title: "Aplikasi Android Rancah Betah",
-    description:
-      "Sebuah aplikasi android sederhana yang menghubungkan pihak usaha dengan customer",
+    description: ["Authorization", "Authentication"],
+    gambar: [porto1, porto2, porto3, porto4, porto5],
     image: "bg-app",
+    tech: [react, firebase],
+    launch: "portofoliosalman.herokuapp.com",
   },
 ];
 
@@ -83,12 +84,10 @@ function App() {
         element={<Homepages Webproject={Webproject} Appproject={Appproject} />}
       />
       <Route
-        path="/web/:title"
-        element={<Detailproject Webproject={Webproject} />}
-      />
-      <Route
-        path="/app/:title"
-        element={<DetailAppProject Appproject={Appproject} />}
+        path="/detail/:title"
+        element={
+          <Detailproject Webproject={Webproject} Appproject={Appproject} />
+        }
       />
     </Routes>
   );

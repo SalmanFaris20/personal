@@ -62,11 +62,11 @@ const Project = ({ Webproject, Appproject }) => {
                 <>
                   <h4 className="text-orange font-bold">{item.title}</h4>
                   <p className="text-abu">{item.description}</p>
-                  {/* <Link to={`/app/${item.title}`}> */}
-                  <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
-                    Detail Project
-                  </button>
-                  {/* </Link> */}
+                  <Link to={`/detail/${item.title}`}>
+                    <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
+                      Detail Project
+                    </button>
+                  </Link>
 
                   <div
                     className={`${item.image} h-80 w-60 bg-cover rounded-xl`}
@@ -83,7 +83,7 @@ const Project = ({ Webproject, Appproject }) => {
                 <div className="p-5 bg-abu bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">
                   <h4 className="text-orange font-bold">{item.title}</h4>
                   <p className="text-abu">{item.description}</p>
-                  <Link to={`/web/${item.title}`}>
+                  <Link to={`/detail/${item.title}`}>
                     <button className="bg-orange px-5 py-1.5 rounded-lg text-putih">
                       Detail Project
                     </button>
