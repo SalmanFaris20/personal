@@ -13,6 +13,7 @@ import postgree from "./../img/svg/postgree.svg";
 import react from "./../img/svg/react.svg";
 import tailwind from "./../img/svg/tailwind.svg";
 import mui from "./../img/svg/mui.svg";
+import redux from "./../img/svg/redux.svg";
 
 const Software = () => {
   return (
@@ -37,6 +38,7 @@ const Software = () => {
         <img src={react} alt="react" />
         <img src={tailwind} alt="tailwind" />
         <img src={mui} alt="mui" />
+        <img src={redux} alt="redux" />
       </div>
     </div>
   );

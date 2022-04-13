@@ -31,6 +31,8 @@ import app1 from "./img/app.jpg";
 import app2 from "./img/app2.jpg";
 import app3 from "./img/app3.jpg";
 import app4 from "./img/app4.jpg";
+import redux from "./img/svg/redux.svg";
+
 
 const Webproject = [
   {
@@ -83,8 +85,8 @@ const Appproject = [
       "aplikasi cloning gojek yang lebih sederhana, user dapat memesan produk yang nantinya terhubung ke whatsapp. Aplikasi sudah dilaunch secara public dan telah digunakan oleh masyarakat",
     gambar: [app1, app2, app3, app4],
     image: "bg-app",
-    tech: [react, firebase],
-    launch: "portofoliosalman.herokuapp.com",
+    tech: [react, firebase, redux],
+    launch: "https://play.google.com/store/apps/details?id=com.rancahbetah",
   },
 ];
 
