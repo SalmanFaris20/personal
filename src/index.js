@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "swiper/css/bundle";
-
+import "flowbite";
+import { ThemeProvider } from "../src/context/darkMode";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <ThemeProvider>
+      <body className="bg-#CCD1E4 dark:bg-black scroll-smooth">
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </body>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

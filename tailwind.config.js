@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
       fontFamily: {
@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         birutua: "#0E1630",
         orange: "#EB4A4B",
-        putih: "#FFFFFF",
+        putih: "#FEECE9",
         abu: "#808DAD",
       },
       backgroundImage: {
@@ -25,7 +25,8 @@ module.exports = {
       screens: {
         laptop: "1320px",
       },
+      darkMode: "class",
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

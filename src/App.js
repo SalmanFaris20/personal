@@ -90,18 +90,22 @@ const Appproject = [
 
 function App() {
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={<Homepages Webproject={Webproject} Appproject={Appproject} />}
-      />
-      <Route
-        path="/detail/:title"
-        element={
-          <Detailproject Webproject={Webproject} Appproject={Appproject} />
-        }
-      />
-    </Routes>
+    <div className="scroll-smooth">
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Homepages Webproject={Webproject} Appproject={Appproject} />
+          }
+        />
+        <Route
+          path="/detail/:title"
+          element={
+            <Detailproject Webproject={Webproject} Appproject={Appproject} />
+          }
+        />
+      </Routes>
+    </div>
   );
 }
 
