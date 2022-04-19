@@ -62,7 +62,11 @@ const Project = ({ Webproject, Appproject }) => {
       </div>
       <div className="px-10 md:px-0 mt-10">
         {isApp && (
-          <div className="p-5 bg-orange dark:bg-abu dark:bg-opacity-10 w-80 rounded-3xl space-y-3 flex flex-col justify-center items-center  text-center">
+          <div
+            className="p-5 bg-orange dark:bg-abu dark:bg-opacity-10 w-80 rounded-3xl space-y-3 flex flex-col justify-center items-center  text-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {Appproject.map((item) => {
               return (
                 <>
@@ -85,7 +89,11 @@ const Project = ({ Webproject, Appproject }) => {
           </div>
         )}
         {isWeb && (
-          <div className="grid md:grid-cols-2 laptop:grid-cols-3 gap-10 w-full">
+          <div
+            className="grid md:grid-cols-2 laptop:grid-cols-3 gap-10 w-full"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {Webproject.map((item) => {
               return (
                 <div className="p-5 bg-orange dark:bg-abu dark:bg-opacity-10 rounded-3xl w-80 space-y-3 flex flex-col justify-center items-center text-center">

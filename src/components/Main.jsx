@@ -7,6 +7,9 @@ const Main = () => {
     <div
       className="flex flex-col-reverse md:flex-row justify-center lg:justify-around items-center mt-10 font-utama"
       id="home"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
     >
       <div className="flex flex-col justify-center items-center md:items-start">
         <div className="flex space-x-2">

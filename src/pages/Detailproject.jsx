@@ -5,18 +5,14 @@ import arrow from "../img/svg/arrow.svg";
 import { Link, useParams } from "react-router-dom";
 import check from "../img/svg/check.svg";
 
+
 function Detailproject({ Webproject, Appproject }) {
   const params = useParams();
   const { title } = params;
 
   return (
     <div className="bg-putih dark:bg-birutua xl:h-screen font-utama flex flex-wrap space-y-2 justify-center px-5 text-center xl:text-left xl:justify-start xl:flex-nowrap xl:px-10 py-28 xl:space-x-5 2xl:space-x-10">
-      <Slider
-        Webproject={Webproject}
-        title={title}
-        Appproject={Appproject}
-        // className="w-1/2"
-      />
+      <Slider Webproject={Webproject} title={title} Appproject={Appproject} />
       <div className="space-y-9">
         {Webproject.filter((list) => list.title === title).map((item) => {
           return (
@@ -136,5 +132,7 @@ function Detailproject({ Webproject, Appproject }) {
     </div>
   );
 }
+
+
 
 export default Detailproject;

@@ -4,6 +4,8 @@ const Skill = () => {
     <div
       className="flex flex-col-reverse md:flex-row mt-10 font-utama justify-center md:justify-around items-center"
       id="skill"
+      data-aos="fade-up"
+      data-aos-duration="3000"
     >
       <div className="grid grid-cols-1 space-y-4 gap-x-10 mt-10 text-putih">
         <div className="bg-orange dark:bg-abu dark:bg-opacity-10 flex space-x-4 p-5 h-16 rounded-md">
@@ -45,8 +47,8 @@ const Skill = () => {
           Website & App
         </h1>
         <div className="w-72 text-birutua dark:text-abu text-sm text-center md:text-left">
-          I was experience create from zero many website & app. Especially I
-          prefer Frontend Developer.
+          I have experience making websites and applications from design,
+          slicing, coding to the deploying process.
         </div>
       </div>
     </div>

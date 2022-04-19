@@ -39,8 +39,7 @@ const Webproject = [
     id: 1,
     title: "Landing Page Website",
     description: ["Responsive"],
-    penjelasan:
-      "Landing Page Game Website yang terdapat berbagai pilihan permainan",
+    penjelasan: "a landing page website that has several game options",
     image: "bg-games",
     gambar: [gunting1, gunting2, gunting3, gunting4, gunting5, gunting6],
     tech: [html, css, js, bootstrap],
@@ -57,18 +56,18 @@ const Webproject = [
       "Edit Profile",
     ],
     penjelasan:
-      "Website games dengan banyak pilihan permainan. Games utama yaitu rock paper scissor yang bisa dimainkan melawan computer. User yang menang akan mendapatkan poin dan bersaing untuk menjadi top 1 leaderboard.",
+      "Games website with a large selection of games. The main game is rock paper scissor which can be played against the computer. Winning users will earn points and compete to become the top 1 leaderboard.",
     image: "bg-gamesjadi",
     gambar: [games1, games2, games3, games4, games5, games6],
-    tech: [react, firebase, node, mui],
+    tech: [react, firebase, mui],
     launch: "https://binar-challenge9.herokuapp.com/",
   },
   {
     id: 3,
     title: "Portofolio Website",
-    description: ["Responsive", "Single Page Application"],
+    description: ["Responsive", "Single Page Application", "Dark Mode"],
     penjelasan:
-      "Website portofolio untuk menginformasikan beberapa project yang pernah dikerjakan, ataupun skillset yang sudah dikuasai",
+      "Portfolio website to inform several projects that have been done, or skillset that have been mastered",
     image: "bg-porto",
     gambar: [porto1, porto2, porto3, porto4, porto5],
     tech: [react, tailwind],
@@ -82,7 +81,7 @@ const Appproject = [
     title: "Aplikasi Android Rancah Betah",
     description: ["Authorization", "Authentication"],
     penjelasan:
-      "aplikasi cloning gojek yang lebih sederhana, user dapat memesan produk yang nantinya terhubung ke whatsapp. Aplikasi sudah dilaunch secara public dan telah digunakan oleh masyarakat",
+      "a simpler gojek clone application, users can order products which will later be connected to whatsapp. The application has been launched publicly and has been used by the community",
     gambar: [app1, app2, app3, app4],
     image: "bg-app",
     tech: [react, firebase, redux],

@@ -17,7 +17,11 @@ import redux from "./../img/svg/redux.svg";
 
 const Software = () => {
   return (
-    <div className="mt-10">
+    <div
+      className="mt-10"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <div className="flex space-x-2 justify-center md:justify-end md:px-20 ">
         <div className="bg-orange h-0.5 w-5 mt-3"></div>
         <h4 className="text-birutua dark:text-orange">Software & Tools</h4>

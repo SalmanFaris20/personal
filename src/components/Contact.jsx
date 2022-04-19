@@ -8,7 +8,12 @@ const Contact = () => {
       className="flex flex-col lg:flex-row justify-center items-center mt-10 font-utama space-y-6 px-5"
       id="contact"
     >
-      <div className="space-y-6 flex flex-col justify-center items-center text-center lg:text-left lg:px-24 xl:px-40 lg:items-start">
+      <div
+        className="space-y-6 flex flex-col justify-center items-center text-center lg:text-left lg:px-24 xl:px-40 lg:items-start"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <div className="flex space-x-2">
           <div className="h-0.5 w-5 bg-orange mt-3"></div>
           <h4 className="text-birutua dark:text-orange">Contact Me</h4>
@@ -79,7 +84,14 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex flex-col w-full sm:px-20">
-        <form className="space-y-5 " name="submit-form">
+        <form
+          className="space-y-5 "
+          name="submit-form"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        >
           <input
             type="text"
             name="name"

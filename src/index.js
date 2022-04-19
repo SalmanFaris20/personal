@@ -11,7 +11,7 @@ import { ThemeProvider } from "../src/context/darkMode";
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <body className="bg-#CCD1E4 dark:bg-black scroll-smooth">
+      <body className="bg-#CCD1E4  scroll-smooth">
         <BrowserRouter>
           <App />
         </BrowserRouter>

@@ -7,7 +7,10 @@ import about from "../img/svg/about.svg";
 const Toogle = (props) => {
   return (
     <div>
-      <div className="fixed h-screen w-screen bg-putih dark:bg-birutua z-10 transition-all">
+      <div
+        className="fixed h-screen w-screen bg-putih dark:bg-birutua z-10 transition-all"
+        data-aos="flip-left"
+      >
         <div
           className="fixed top-5 right-16 sm:right-32 lg:right-28 xl:right-44 cursor-pointer"
           onClick={() => props.exit()}
